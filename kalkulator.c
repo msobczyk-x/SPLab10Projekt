@@ -86,8 +86,8 @@ printf("%d / %d = %d\n",a,b,wynik);
 
 }
 void wiek() {
-printf("Ile masz lat?");
+printf("Ile masz lat? ");
 int x;
 scanf("%d", &x);
-printf("Wow gratulacje, masz %d lat!", x);
+printf("\nWow gratulacje, masz %d lat!", x);
 }
