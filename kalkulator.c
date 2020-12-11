@@ -61,5 +61,13 @@ printf("%d * %d = %d\n",a,b,wynik);
 
 }
 
-void dzielenie() {
+void dzielenie(){
+        int a,b,wynik;
+printf("Podaj a i b:\n ");
+scanf("%d",&a);
+scanf("%d",&b);
+wynik=a/b;
+printf("%d / %d = %d\n",a,b,wynik);
+
+
 }
