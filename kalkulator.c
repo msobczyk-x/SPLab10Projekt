@@ -1,27 +1,60 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
-
-printf("Wybierz działanie:\n1. dodawanie\n2. odejmowanie\n3. mnozenie\n4.dzielenie");
-int dzialanie;
-
-scanf("%d",& dzialanie);
-
-float liczba1, liczba2;
-
-printf("Podaj liczbę: ");
-scanf("%f", &liczba1);
-
-printf("Podaj liczbę: ");
-scanf("%f", &liczba2);
+void dodawanie();
+void odejmowanie();
+void mnozenie();
+void dzielenie();
 
 
-switch(dzialanie){
+int main(){
 
-case 1:
-printf("%.3f", liczba1+liczba2)"
-break;
+    unsigned int wybor;
+    printf("------Kalkulator------\n Wybierz:\n 1) Dodawanie\n 2) Odejmowanie\n 3) Mnożenie\n 4) Dzielenie\n Wybierz:");
+    scanf("%u",&wybor);
+    printf("\n");
 
-case 2:
-printf(".3f", liczba1-liczba2)"
+    switch (wybor)
+    {
+    case 1:
+        /* code */
+        break;
 
+    case 2:
+        /* code */
+        break;
+
+    case 3:
+        /* code */
+        break;
+
+    case 4:
+        /* code */
+        break;
+
+    default:
+    printf("Nieprawidlowa liczba");
+        break;
+    }
+
+
+    return 0;
+
+}
+
+
+void dodawanie(){
+
+
+}
+void odejmowanie(){
+
+
+}
+void mnozenie(){
+
+
+}
+void dzielenie(){
+
+
+}
