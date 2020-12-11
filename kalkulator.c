@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void dodawanie(); void odejmowanie(); void mnozenie(); void dzielenie(); int main(){
     unsigned int wybor;
     printf("------Witamy w ULTRA ULTIMATE KALKULATORZE 2000!------\n Wybierz:\n 1) Dodawanie\n 2) Odejmowanie\n 3) Mnożenie\n 4) 
@@ -14,16 +15,20 @@ Dzielenie\n Wybierz: ");
         odejmowanie();
         break;
     case 3:
-        /* code */
+        mozenie();
         break;
     case 4:
-        /* code */
+        dzielenie();
         break;
+
+    
+
     default:
     printf("Nieprawidlowa liczba");
         break;
     }
-    return 0;
+
+
 }
 void dodawanie(){
     float x, suma=0;
@@ -54,8 +59,26 @@ void odejmowanie(){
         if (x==0)
             break;
     }
+
 }
 void mnozenie(){
+    int a,b,wynik;
+printf("Podaj a i b:\n ");
+scanf("%d",&a);
+scanf("%d",&b);
+wynik=a*b;
+printf("%d * %d = %d\n",a,b,wynik);
+
+
 }
+
 void dzielenie(){
+        int a,b,wynik;
+printf("Podaj a i b:\n ");
+scanf("%d",&a);
+scanf("%d",&b);
+wynik=a/b;
+printf("%d / %d = %d\n",a,b,wynik);
+
+
 }
