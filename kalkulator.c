@@ -1,7 +1,7 @@
 #include <stdio.h>
 void dodawanie(); void odejmowanie(); void mnozenie(); void dzielenie(); int main(){
     unsigned int wybor;
-    printf("------Kalkulator------\n Wybierz:\n 1) Dodawanie\n 2) Odejmowanie\n 3) Mnożenie\n 4) 
+    printf("------Witamy w ULTRA ULTIMATE KALKULATORZE 2000!------\n Wybierz:\n 1) Dodawanie\n 2) Odejmowanie\n 3) Mnożenie\n 4) 
 Dzielenie\n Wybierz: ");
     scanf("%u",&wybor);
     printf("\n");
