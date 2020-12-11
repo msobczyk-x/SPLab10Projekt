@@ -82,3 +82,7 @@ printf("%d / %d = %d\n",a,b,wynik);
 
 
 }
+           
+           void x(){
+               printf("Dodatkowy commit");
+           }
