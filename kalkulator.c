@@ -3,7 +3,7 @@
 void dodawanie(); void odejmowanie(); void mnozenie(); void dzielenie(); int main(){
     unsigned int wybor;
     printf("------Witamy w ULTRA ULTIMATE KALKULATORZE 2000!------\n Wybierz:\n 1) Dodawanie\n 2) Odejmowanie\n 3) Mnożenie\n 4) 
-Dzielenie\n Wybierz: ");
+Dzielenie\n5. Niespodzianka\n Wybierz: ");
     scanf("%u",&wybor);
     printf("\n");
     switch (wybor)
@@ -20,6 +20,9 @@ Dzielenie\n Wybierz: ");
     case 4:
         dzielenie();
         break;
+	case 5:
+	wiek();
+	break;
 
     
 
@@ -81,4 +84,10 @@ wynik=a/b;
 printf("%d / %d = %d\n",a,b,wynik);
 
 
+}
+void wiek() {
+printf("Ile masz lat?");
+int x;
+scanf("%d", &x);
+printf("Wow gratulacje, masz %d lat!", x);
 }
